@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        // TODO: write a method that makes a deeply nested path according to alphabet
+        // TODO: write a method that makes a deeply nested PathDemoProject according to alphabet
 
         File directory = new File("file/file");
         try {

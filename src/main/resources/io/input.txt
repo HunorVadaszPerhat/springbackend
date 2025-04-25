@@ -1,0 +1,3 @@
+Hello, BufferedInputStream!
+This is a test file.
+It demonstrates buffering, mark/reset, skip, and more.

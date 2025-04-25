@@ -6,12 +6,12 @@ public class FileInputStreamDemo {
 
     public static void main(String[] args) {
         try {
-            readTextFileUsingStringPath("input.txt");
-            readTextFileUsingFileObject(new File("input.txt"));
+            readTextFileUsingStringPath("io/input.txt");
+            readTextFileUsingFileObject(new File("io/input.txt"));
             readBinaryData("binary.dat");
             useAvailableAndEOF("binary.dat");
-            demonstrateGetFD("input.txt");
-            demonstrateUnsupportedMarkReset("input.txt");
+            demonstrateGetFD("io/input.txt");
+            demonstrateUnsupportedMarkReset("io/input.txt");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -20,7 +20,7 @@ public class FileInputStreamDemo {
     // Use constructor FileInputStream(String name) and read() methods
     static void readTextFileUsingStringPath(String filename) throws IOException {
         try (FileInputStream fis = new FileInputStream(filename)) {
-            System.out.println("Reading file with path string:");
+            System.out.println("Reading file with PathDemoProject string:");
             int data;
             while ((data = fis.read()) != -1) {
                 System.out.print((char) data); // assume UTF-8

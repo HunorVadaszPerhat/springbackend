@@ -10,7 +10,7 @@ public class StreamInspector {
         // Ensure file exists
         if (!file.exists()) {
             try (FileOutputStream fos = new FileOutputStream(file)) {
-                fos.write("This is a test input for FilterInputStream demo.".getBytes());
+                fos.write("This is a io input for FilterInputStream demo.".getBytes());
             } catch (IOException e) {
                 System.err.println("Failed to create input file.");
                 return;

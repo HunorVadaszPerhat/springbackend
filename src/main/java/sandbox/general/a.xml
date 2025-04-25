@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<NemRefusionIndberetningSamling xmlns="urn:oio:kmd:nemrefusionsamling:2009.07.03"
+                                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>YSX9amOvWrYGpceh5Ki/MJShiZ9Qdts73HdCbAoq8Es=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            aD4pqKmfzpOX+Z5fuufgr154PJUrw8RFf1ibFWIypQ5N6sxgNUm9XLRJxcLVEwheixOXM/NI1LSszqNugwJG9TH+8qFzIvBmC6E8rcWhfm2Z+eH3aJ+EoiAnkcfz2umh5xzcvGHdXsw3Y7u33mOo34Qi0UbYGMzIhk69OxRz1Y9o1G6COtLtUC8TcA0IFoTSLqhC9TKFodeWJblN2QJkXSQuMW7p7ynhOa2LaJ0NOH+BgMLXmaZJzr/XgwWpbpOs+mVx8xg98vckGRajtTVO/sLPMvalrad2falppxHqGIx2QUdxgBD7F7bL0dnfRqU+WnCxTLhysvpkIpitU9DfsWYa7KQT2VdRI6NKSluwgZdV3V/JAZgWiOXpESIwSciOJ9dcOdK/PJM8oySFdflDSZnv5eGeOEXrkHb8vT6F/3v8CbNa9yxIn5odKxRtr4chmKq1251lbU1Ui7KRypQum6d22Qw8MeizHVpcx++mHGfqFiiLgm+78ubxaZkqdI9d
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    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
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    <DannetDatoTid>2024-03-15T01:00:05.2070078+01:00</DannetDatoTid>
+    <UdstederVenligtNavn>Nemrefusion3</UdstederVenligtNavn>
+
+    <NemRefusionIndberetningStruktur xmlns="urn:oio:kmd:nemrefusionindberetning:2009.07.03" MessageID="1">
+        <HeaderStruktur xmlns="urn:oio:kmd:nemrefusionheader:2009.07.03" NemRefusionVersion="NemRefusion30">
+            <SignOffIndikator>true</SignOffIndikator>
+            <TokenTekst>6756c9af-88e0-4034-89bd-49354ebac5cc</TokenTekst>
+            <AnsaettelseIdentifikator/>
+            <TransaktionKode>Opret</TransaktionKode>
+            <IndberetningstypeKode>Anmeldelse</IndberetningstypeKode>
+            <FravaerTypeKode>Sygdom</FravaerTypeKode>
+            <FravaerendeStruktur>
+                <FravaerendeTypeKode>Loenmodtager</FravaerendeTypeKode>
+                <LoenUnderFravaerIndikator>true</LoenUnderFravaerIndikator>
+                <AdressebeskyttelseIndikator>false</AdressebeskyttelseIndikator>
+            </FravaerendeStruktur>
+            <AnsaettelsesforholdStruktur>
+                <BekraeftetIndikator>true</BekraeftetIndikator>
+                <IkkeBekraeftetTekst/>
+            </AnsaettelsesforholdStruktur>
+            <IndberetningUUIDIdentifikator>6af7c815-2b5f-435c-bc7a-43d73317332a</IndberetningUUIDIdentifikator>
+            <FravaerUUIDIdentifikator>2fa23d1a-eb14-464e-be7e-cc8489d2ba99</FravaerUUIDIdentifikator>
+            <IndberetningTilstandKode>SigneretIndberetning</IndberetningTilstandKode>
+            <BeskedSamling>
+                <BeskedStruktur>
+                    <BeskedKategori>Information</BeskedKategori>
+                    <BeskedKode>2104</BeskedKode>
+                    <BeskedTekst>Indberetningen er oprettet/opdateret i NemRefusion</BeskedTekst>
+                </BeskedStruktur>
+            </BeskedSamling>
+            <ModtagerKommuneStruktur>
+                <ModtagerKommuneKode>0751</ModtagerKommuneKode>
+                <ModtagerKommuneNavn>Aarhus Kommune</ModtagerKommuneNavn>
+                <ModtagerMyndighedKode>0751</ModtagerMyndighedKode>
+                <ModtagerMyndighedNavn>Aarhus Kommune</ModtagerMyndighedNavn>
+            </ModtagerKommuneStruktur>
+            <IndberetterStruktur>
+                <IndberetterIdentifikator>CVR:10213231,Økonomistyrelsen</IndberetterIdentifikator>
+                <IndberetterOprettetIdentifikator>CVR:10213231,Økonomistyrelsen</IndberetterOprettetIdentifikator>
+                <OprettetDatoTid>2024-03-15T01:00:06.4696288+01:00</OprettetDatoTid>
+                <OpdateretDatoTid>2024-03-15T01:00:06.4696995+01:00</OpdateretDatoTid>
+            </IndberetterStruktur>
+            <SigneringDatoTid>2024-03-15T01:00:05.2070078+01:00</SigneringDatoTid>
+            <OpretterAktoer>VirksomhedsService</OpretterAktoer>
+        </HeaderStruktur>
+        <NemRefusionFelterStruktur xmlns="urn:oio:kmd:nemrefusionfelter:2009.07.03">
+            <DenFravaerendeStruktur xmlns="urn:oio:adir:dagpenge:2009.07.01">
+                <BorgerStruktur>
+                    <CPRnummerIdentifikator>1312821210</CPRnummerIdentifikator>
+                    <DanskAdresseStruktur>
+                        <StreetName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2005/03/15/">Minthøjvej</StreetName>
+                        <StreetBuildingIdentifier xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2003/02/13/">17
+                        </StreetBuildingIdentifier>
+                        <PostCodeIdentifier xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2005/03/15/">8210
+                        </PostCodeIdentifier>
+                        <DistrictName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2005/03/15/">Aarhus V
+                        </DistrictName>
+                    </DanskAdresseStruktur>
+                    <BorgerNavnStruktur>
+                        <PersonGivenName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2003/02/13/">Thea Chathrine
+                        </PersonGivenName>
+                        <PersonMiddleName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2003/02/13/">Kronborg Haahr
+                        </PersonMiddleName>
+                        <PersonSurnameName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2003/02/13/">Mukai
+                        </PersonSurnameName>
+                    </BorgerNavnStruktur>
+                </BorgerStruktur>
+            </DenFravaerendeStruktur>
+            <SygdomsfravaerStruktur xmlns="urn:oio:adir:dagpenge:2009.07.01">
+                <FoersteSygefravaersdagDato>2024-02-21</FoersteSygefravaersdagDato>
+                <ArbejdsskadeIndikator>false</ArbejdsskadeIndikator>
+                <FravaerStruktur>
+                    <GenoptagelseArbejdeKode>1</GenoptagelseArbejdeKode>
+                </FravaerStruktur>
+                <SygedagpengerefusionStruktur>
+                    <AfholdtFerieIndikator>false</AfholdtFerieIndikator>
+                </SygedagpengerefusionStruktur>
+            </SygdomsfravaerStruktur>
+            <AnsaettelsesforholdStruktur xmlns="urn:oio:adir:dagpenge:2009.07.01">
+                <AnsatOverOtteUgerIndikator>true</AnsatOverOtteUgerIndikator>
+                <StillingsbetegnelseNavn>Adjunkt</StillingsbetegnelseNavn>
+                <SaerligeOrdningerKode>3</SaerligeOrdningerKode>
+                <LoenforholdStruktur>
+                    <LoenfortsaettelseIndikator>true</LoenfortsaettelseIndikator>
+                </LoenforholdStruktur>
+                <ArbejdstidsforholdStruktur>
+                    <UgentligArbejdstidStruktur>
+                        <UgentligArbejdstidTimeKvantitet>0</UgentligArbejdstidTimeKvantitet>
+                        <UgentligArbejdstidMinutKvantitet>0</UgentligArbejdstidMinutKvantitet>
+                        <UgentligArbejdstidUgedagKode>6</UgentligArbejdstidUgedagKode>
+                    </UgentligArbejdstidStruktur>
+                    <UgentligArbejdstidStruktur>
+                        <UgentligArbejdstidTimeKvantitet>0</UgentligArbejdstidTimeKvantitet>
+                        <UgentligArbejdstidMinutKvantitet>0</UgentligArbejdstidMinutKvantitet>
+                        <UgentligArbejdstidUgedagKode>7</UgentligArbejdstidUgedagKode>
+                    </UgentligArbejdstidStruktur>
+                    <UgentligArbejdstidStruktur>
+                        <UgentligArbejdstidTimeKvantitet>7</UgentligArbejdstidTimeKvantitet>
+                        <UgentligArbejdstidMinutKvantitet>24</UgentligArbejdstidMinutKvantitet>
+                        <UgentligArbejdstidUgedagKode>1</UgentligArbejdstidUgedagKode>
+                    </UgentligArbejdstidStruktur>
+                    <UgentligArbejdstidStruktur>
+                        <UgentligArbejdstidTimeKvantitet>7</UgentligArbejdstidTimeKvantitet>
+                        <UgentligArbejdstidMinutKvantitet>24</UgentligArbejdstidMinutKvantitet>
+                        <UgentligArbejdstidUgedagKode>2</UgentligArbejdstidUgedagKode>
+                    </UgentligArbejdstidStruktur>
+                    <UgentligArbejdstidStruktur>
+                        <UgentligArbejdstidTimeKvantitet>7</UgentligArbejdstidTimeKvantitet>
+                        <UgentligArbejdstidMinutKvantitet>24</UgentligArbejdstidMinutKvantitet>
+                        <UgentligArbejdstidUgedagKode>3</UgentligArbejdstidUgedagKode>
+                    </UgentligArbejdstidStruktur>
+                    <UgentligArbejdstidStruktur>
+                        <UgentligArbejdstidTimeKvantitet>7</UgentligArbejdstidTimeKvantitet>
+                        <UgentligArbejdstidMinutKvantitet>24</UgentligArbejdstidMinutKvantitet>
+                        <UgentligArbejdstidUgedagKode>4</UgentligArbejdstidUgedagKode>
+                    </UgentligArbejdstidStruktur>
+                    <UgentligArbejdstidStruktur>
+                        <UgentligArbejdstidTimeKvantitet>7</UgentligArbejdstidTimeKvantitet>
+                        <UgentligArbejdstidMinutKvantitet>24</UgentligArbejdstidMinutKvantitet>
+                        <UgentligArbejdstidUgedagKode>5</UgentligArbejdstidUgedagKode>
+                    </UgentligArbejdstidStruktur>
+                </ArbejdstidsforholdStruktur>
+            </AnsaettelsesforholdStruktur>
+            <VirksomhedStruktur xmlns="urn:oio:adir:dagpenge:2009.07.01">
+                <VirksomhedNavn>VIA University College</VirksomhedNavn>
+                <CVRnummerIdentifikator>30773047</CVRnummerIdentifikator>
+                <PNummerIdentifikator>1016094508</PNummerIdentifikator>
+                <DanskAdresseStruktur>
+                    <StreetName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2005/03/15/">Prinsens Alle</StreetName>
+                    <StreetBuildingIdentifier xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2003/02/13/">2
+                    </StreetBuildingIdentifier>
+                    <PostCodeIdentifier xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2005/03/15/">8800
+                    </PostCodeIdentifier>
+                    <DistrictName xmlns="http://rep.oio.dk/ebxml/xml/schemas/dkcc/2005/03/15/">Viborg</DistrictName>
+                </DanskAdresseStruktur>
+            </VirksomhedStruktur>
+        </NemRefusionFelterStruktur>
+    </NemRefusionIndberetningStruktur>
+</NemRefusionIndberetningSamling>
