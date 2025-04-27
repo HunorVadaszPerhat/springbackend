@@ -1,4 +1,4 @@
-Ah, let me tell you the tale of **`java.io.LineNumberInputStream`**, a curious and once-useful class that arrived with noble intentions — but like many things in software, eventually became a relic, gently nudged into the shadows by better designs and a changing world.
+Let me tell you the tale of **`java.io.LineNumberInputStream`**, a curious and once-useful class that arrived with noble intentions — but like many things in software, eventually became a relic, gently nudged into the shadows by better designs and a changing world.
 
 ---
 

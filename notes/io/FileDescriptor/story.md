@@ -1,7 +1,3 @@
-Ah, *`java.io.FileDescriptor`* — a class you’ll rarely meet directly, yet one whose fingerprints are on nearly every file you open, every stream you flush, and every byte you quietly shuffle through Java’s vast IO world. Let’s journey into its tale, one rooted deep in Java’s history, but still silently relevant in version 21.
-
----
-
 ### **Chapter 1: The Problem — A Need for a Handle to the Soul of IO**
 
 Once upon a time in the early 1990s, when Java was just a budding sapling named Oak, the designers faced a fundamental challenge: how could Java—meant to be a *portable* language—interact with the deeply *non-portable* world of operating system resources?

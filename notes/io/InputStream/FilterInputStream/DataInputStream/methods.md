@@ -1,4 +1,4 @@
-Absolutely — here's a **comprehensive, thoughtfully categorized guide** to the methods of the `java.io.DataInputStream` class (Java SE 21), designed specifically with **enterprise Java development** in mind.
+Here's a **comprehensive, thoughtfully categorized guide** to the methods of the `java.io.DataInputStream` class (Java SE 21), designed specifically with **enterprise Java development** in mind.
 
 ---
 

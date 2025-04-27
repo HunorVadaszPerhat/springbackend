@@ -1,4 +1,4 @@
-Absolutely — here's a **comprehensive, categorized breakdown** of the `java.io.FilterInputStream` class in **Java SE 21**, organized into logical groups for **enterprise-level Java development**. Each method is tagged based on its practical relevance: **Essential**, **Advanced**, **Legacy**, or **Rarely Used** — to help prioritize focus when working in the real world.
+Here's a **comprehensive, categorized breakdown** of the `java.io.FilterInputStream` class in **Java SE 21**, organized into logical groups for **enterprise-level Java development**. Each method is tagged based on its practical relevance: **Essential**, **Advanced**, **Legacy**, or **Rarely Used** — to help prioritize focus when working in the real world.
 
 ---
 
