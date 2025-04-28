@@ -130,6 +130,34 @@ if (looksLikePNG(firstFew)) {
 }
 ```
 
+```java
+in.mark(10);
+```
+
+this line **marks** the current position in the `InputStream` (`in`), and says:  
+*"I might want to reset back to here later. Please remember up to 10 bytes from now."*
+
+The `10` is called the **read limit** — it tells the stream:
+> *"You must allow me to call `reset()` **as long as** I have not read more than 10 bytes after this mark."*
+
+**If you read more than 10 bytes**, the stream is allowed to "forget" the mark, and `reset()` might throw an exception (`IOException`).
+
+In your case, you're only reading 5 bytes:
+
+```java
+in.read(firstFew); // firstFew has size 5
+```
+
+which is **less than 10**, so it's safe: `reset()` will correctly bring you back to the start.
+
+---
+
+**Quick Summary:**
+- `mark(10)` → *Mark this spot, and let me come back to it if I read ≤10 bytes.*
+- `reset()` → *Jump back to the marked spot.*
+
+---
+
 Without `mark()`/`reset()`, you'd have to:
 - Read and store the first few bytes manually.
 - Stitch the data back together.

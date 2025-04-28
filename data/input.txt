@@ -1,0 +1,5 @@
+Hello 123 World! 456#789
+
+Hello 123 World! 456#789
+
+a == b && c != d || e <= f ++ g
