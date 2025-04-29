@@ -1,0 +1,3 @@
+In simple terms, `java.io.FilterInputStream` helps you add extra features or behaviors to an existing input stream. It acts like a wrapper, meaning it takes a regular stream (like reading from a file) and lets you enhance it—for example, to buffer data, filter out specific content, or convert data into another form—without changing the original stream itself.
+
+This solves the problem of extending the behavior of existing streams easily, without having to rewrite or duplicate code.

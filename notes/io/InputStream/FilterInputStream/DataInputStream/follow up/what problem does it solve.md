@@ -1,0 +1,3 @@
+`java.io.DataInputStream` solves the problem of turning raw bytes from an input stream into Java’s built-in data types (like `int`, `long`, `double`, or UTF-8 strings) without you having to do all the byte-crunching yourself.
+
+Think of it like this: if you just read bytes one at a time, and you know the next four bytes represent an integer, you’d have to read each byte and shift/combine them manually.  A `DataInputStream` wraps that up for you, so you can simply call `readInt()`, `readDouble()`, or `readUTF()` and get back the number or text you expect, fully assembled and in the right byte order.

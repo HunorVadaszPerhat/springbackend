@@ -1,0 +1,12 @@
+Hello 123 45.67true
+
+This is a line.
+789
+3.1415
+false
+Name: Alice, Age: 30
+Formatted number: 12,35
+Appended text!
+part of th
+Raw bytes output
+Raw 
