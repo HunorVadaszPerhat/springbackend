@@ -1,2 +1,1 @@
-AHelloell WorldGreet
-Appended lineSubstring
+This is written.
