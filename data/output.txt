@@ -1,1 +1,2 @@
-AThis is a [REDACTED] message.CONFIDENTIALXAPPENDED TEXTSLICE
+AHelloell WorldGreet
+Appended lineSubstring
